@@ -207,13 +207,13 @@
 		526D9F1D26AF661F00B6B882 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				F28B1A262C954BC800FD116C /* TabFlowPath */,
+				F28B1A252C954BBA00FD116C /* TabNumbers */,
+				F28B1A242C954BA800FD116C /* MainApp */,
 				528AE0EF2BF377C300E143C5 /* ArrayBindingView.swift */,
 				529CB4432C6ABC7B00B0AFE9 /* View+indexedA11y.swift */,
-				528AE0F12BF377C300E143C5 /* FlowPathView.swift */,
 				528AE0F02BF377C300E143C5 /* NoBindingView.swift */,
 				528AE0F22BF377C300E143C5 /* NumberVMFlow.swift */,
-				526D9F3226AF667000B6B882 /* FlowStacksApp.swift */,
-				525C73362774BA6B009CBD67 /* NumberCoordinator.swift */,
 				52C5CCDD286EE92B0075ABA7 /* Deeplink.swift */,
 				52AB99512C83C8F900AC6BA5 /* SimpleStepper.swift */,
 			);
@@ -228,6 +228,30 @@
 				528AE0FE2BF7662200E143C5 /* FlowStacksUITests.swift */,
 			);
 			path = FlowStacksAppUITests;
+			sourceTree = "<group>";
+		};
+		F28B1A242C954BA800FD116C /* MainApp */ = {
+			isa = PBXGroup;
+			children = (
+				526D9F3226AF667000B6B882 /* FlowStacksApp.swift */,
+			);
+			path = MainApp;
+			sourceTree = "<group>";
+		};
+		F28B1A252C954BBA00FD116C /* TabNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				525C73362774BA6B009CBD67 /* NumberCoordinator.swift */,
+			);
+			path = TabNumbers;
+			sourceTree = "<group>";
+		};
+		F28B1A262C954BC800FD116C /* TabFlowPath */ = {
+			isa = PBXGroup;
+			children = (
+				528AE0F12BF377C300E143C5 /* FlowPathView.swift */,
+			);
+			path = TabFlowPath;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
